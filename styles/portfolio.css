@@ -32,6 +32,18 @@ p {
   line-height: 1.7;
 }
 
+.logo {
+  max-width: 140px;
+  padding: 10px;
+}
+
+.active {
+  color: var(--secondary-color) !important;
+}
+
+.nav-item {
+  padding: 10px;
+}
 .hero {
   background: var(--branding-color);
   text-align: center;
@@ -89,7 +101,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 50px 20px;
 }
 
 .content {
