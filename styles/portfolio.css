@@ -117,6 +117,39 @@ p {
 .content p {
   font-size: 14px;
 }
+
+footer .email-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  font-size: 25px;
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+  padding: 10px 18px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer .contact-box {
+  background-color: var(--branding-color);
+  padding: 40px 120px;
+  border-radius: 10px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
